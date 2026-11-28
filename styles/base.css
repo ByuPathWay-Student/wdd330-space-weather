@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #363178;
+    --secondary-color: #FFDC53;
+    --accent-color-one: #B5D0FF;
+    --accent-color-two: #FFF7D7;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--accent-color-one);
+}
+
+header a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/* possibly remove main styling when doing the rest of the css */
+main {
+    padding: 5rem;
+    text-align: center;
+    width: 890px;
+    margin: 0 auto;
+    background-color: var(--accent-color-two);
+}
+
+.weatherDisplay {
+    margin-bottom: 3rem;
+}
+
+.card {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    margin: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    padding: 2rem;
+    background-color: var(--accent-color-one);
+    text-align: center;
+}
